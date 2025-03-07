@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 8b - Web Accessibility Activities</title>
+</head>
+<body>
+    <h1>Assignment 8b - Web Accessibility Activities</h1>
+    <p>
+        In this assignment, I completed two activities focused on improving web accessibility. 
+        The first activity I completed was reviewing Mozilla's "What is accessibility?" This activity helped me understand the importance of making websites accessible to everyone, including people with disabilities.  I learned that accessibility is not just about adding features for people with disabilities but also about making websites easier to use for everyone, regardless of their physical abilities or technology.  This concept will be helpful in my future work as I want to ensure that any websites I create are inclusive and accessible.
+    </p>
+    <p>
+        The second activity I did was using the W3C Markup Validation Service to validate HTML for a web page.  This tool helped me identify any errors in the HTML code that could prevent a website from functioning properly. I had to make several corrections to ensure that my code was valid and met the standards set by the W3C.  By using this validation service, I learned the importance of writing clean and correct HTML.  In the future, I can apply this by always validating my web pages to ensure they work as expected and are compatible with different browsers and devices.
+    </p>
+    <p>
+        In these activities, I learned the importance of web accessibility and how it can make the internet a better place for everyone.  By using tools like WAVE and the W3C Markup Validation Service, I now understand how to check for accessibility issues and fix them.  I can apply these concepts in my future web development work by ensuring that my websites are easy to use for everyone, no matter their abilities or the technology they use.
+    </p>
+</body>
+</html>
