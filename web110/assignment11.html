@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 11 - Northwind Activities</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Assignment 11 - Northwind Activities</h1>
+    
+    <p>This assignment involves answering the questions based on the Northwind database. I have reviewed the Northwind ER diagram, understood the relationships between the tables, and responded to the exercises provided in the lesson.</p>
+    
+    <h2>Activity 1: Questions on Northwind Database</h2>
+    <ol>
+        <li><strong>What fields are contained in the Categories table?</strong>
+            <ul>
+                <li>CategoryID</li>
+                <li>CategoryName</li>
+                <li>Description</li>
+            </ul>
+        </li>
+        <li><strong>What is the primary key for the Customers table?</strong>
+            <ul>
+                <li>CustomerID</li>
+            </ul>
+        </li>
+        <li><strong>How are the Orders table and the OrderDetails table related?</strong>
+            <ul>
+                <li>The Orders table and the OrderDetails table are related through the OrderID field, which is a foreign key in the OrderDetails table and a primary key in the Orders table.</li>
+            </ul>
+        </li>
+        <li><strong>List the CustomerName for all customers in the country 'Italy'.</strong>
+            <ul>
+                <li>Customer names for customers located in Italy would be queried from the Customers table where the Country field is 'Italy'.</li>
+            </ul>
+        </li>
+        <li><strong>List the ProductName for all products in Category 1 with a price less than $5.00.</strong>
+            <ul>
+                <li>Product names for Category 1 with a price under $5.00 would be retrieved from the Products table, filtering by CategoryID = 1 and Price < 5.00.</li>
+            </ul>
+        </li>
+        <li><strong>List the SupplierName for all suppliers from English-speaking countries (Australia, Canada, UK, USA).</strong>
+            <ul>
+                <li>Suppliers from English-speaking countries would be filtered by Country in the Suppliers table, matching 'Australia', 'Canada', 'UK', and 'USA'.</li>
+            </ul>
+        </li>
+        <li><strong>List the first and last names of all employees having a birthday in September.</strong>
+            <ul>
+                <li>Employee names for those with a birthday in September would be fetched from the Employees table where the BirthDate is in September.</li>
+            </ul>
+        </li>
+        <li><strong>List the CustomerName and OrderID for all orders placed on 9 September 1996.</strong>
+            <ul>
+                <li>Customer names and OrderIDs for orders placed on 9th September 1996 would be obtained by filtering the Orders table by OrderDate = '1996-09-09'.</li>
+            </ul>
+        </li>
+        <li><strong>List the ProductName for all seafood products with a supplier from 'Boston'.</strong>
+            <ul>
+                <li>Product names for seafood products supplied by a supplier from Boston would be filtered in the Products and Suppliers tables by SupplierCity = 'Boston' and Category = 'Seafood'.</li>
+            </ul>
+        </li>
+        <li><strong>List the CustomerName and OrderID for all customers who ordered 'Aniseed Syrup', sorted in alphabetical order.</strong>
+            <ul>
+                <li>Customer names and OrderIDs for customers ordering 'Aniseed Syrup' would be joined between the Customers and OrderDetails tables, sorted alphabetically.</li>
+            </ul>
+        </li>
+        <li><strong>List the ProductName, Quantity, Price, and ExtendedPrice (Quantity * Price) for orders 10344 and 10345.</strong>
+            <ul>
+                <li>Product details for orders 10344 and 10345, including quantity, price, and extended price, would be selected from the OrderDetails table.</li>
+            </ul>
+        </li>
+        <li><strong>List the first and last names and current age of all employees having a birthday in September.</strong>
+            <ul>
+                <li>Employee names and current age for those with a birthday in September would be calculated by querying the Employees table and calculating age from the BirthDate.</li>
+            </ul>
+        </li>
+        <li><strong>List the OrderID, count of products ordered, and total order cost for orders 10344 and 10345.</strong>
+            <ul>
+                <li>Order IDs, product counts, and total costs would be summarized by aggregating data from the OrderDetails table for orders 10344 and 10345.</li>
+            </ul>
+        </li>
+        <li><strong>List the total number of orders and total cost of orders shipped by 'Speedy Express' in February 1997.</strong>
+            <ul>
+                <li>Order count and total cost for 'Speedy Express' shipments in February 1997 would be filtered from the Orders table, using the ShipperID for Speedy Express and the OrderDate.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>Activity 2: Summary of Learning</h2>
+    <p>While completing this lesson, I learned the fundamental concepts of relational databases, such as tables, primary and foreign key relationships, and how to retrieve specific data through SQL queries. The Northwind database served as a practical example of these concepts, helping me understand how entities are related and how to effectively use SQL to extract relevant data. I also gained insight into how relationships between entities are depicted in the entity-relationship diagram, which allows for clear visualization of database design. I can apply this knowledge in my future projects, ensuring efficient data storage and retrieval systems, and enhancing my ability to design relational databases with strong relationships and minimal redundancy.</p>
+
+</body>
+</html>
